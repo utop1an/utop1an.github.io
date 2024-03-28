@@ -1,0 +1,19 @@
+* {
+    --md-primary-fg-color: rgb(48, 131,179);
+    --md-primary-fg-color--light: #0096FF;
+    --md-primary-fg-color--dark:  #00008B;
+    --md-typeset-color:   var(--md-default-fg-color);
+    --md-typeset-a-color: var(--md-primary-fg-color--light);
+}
+
+:root {
+    --md-primary-fg-color: #181917;
+    --md-primary-fg-color--light: #0096FF;
+    --md-primary-fg-color--dark:  #00008B;
+}
+
+:root>* {
+    --md-primary-bg-color:   #000;
+    --md-typeset-color:   var(--md-default-fg-color);
+    --md-typeset-a-color: var(--md-primary-fg-color--light);
+}

@@ -3,9 +3,47 @@
   -#}
   {% extends "base.html" %}
   {% block extrahead %}
-    <link rel="stylesheet" href="{{ 'assets/stylesheets/custom.00c04c01.min.css' | url }}">
+    <!-- <link rel="stylesheet" href="{{ 'assets/stylesheets/custom.00c04c01.min.css' | url }}"> -->
+    <link rel="stylesheet" href="{{ 'assets/stylesheets/style.css' | url }}">
   {% endblock %}
   {% block scripts %}
     {{ super() }}
-    <script src="{{ 'assets/javascripts/custom.129bd6ad.min.js' | url }}"></script>
+    <!-- <script src="{{ 'assets/javascripts/custom.129bd6ad.min.js' | url }}"></script> -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed= new Typed(".typewritter", {
+            strings: [
+                '你好，世界',
+                'Hello World!',
+                "안녕하세요 월드",
+                'Hallo Welt!',
+                "こんにちは世界",
+                "Привет, мир",
+                "Kumusta, Mundo!",
+                'Bonjour le monde!',
+                "ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ ਦੁਨਿਆ",
+                "नमस्ते दुनिया",
+                "¡Hola Mundo!",
+                "สวัสดีชาวโลก",
+                "Hej Verden!",
+                "Chào thế giới",
+                "Olá Mundo!",
+                "مرحبا بالعالم",
+                "Hallo Wereld!",
+                "Selam Dünya!",
+                "Ciao mondo!",
+                "Witaj świecie!",
+                "Pozdrav svijete!",
+                "Ahoj světe!",
+                "Helló Világ!",
+                "Hei maailma!",
+                "Hej världen!",
+                "Γειά σου Κόσμε",
+                "שלום עולם",
+            ],
+            typeSpeed: 120,
+            backSpeed: 110,
+            loop: true
+        })
+    </script>
   {% endblock %}

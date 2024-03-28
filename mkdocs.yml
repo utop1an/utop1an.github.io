@@ -5,12 +5,18 @@ site_description: Knowledge Wiki, notebook....
 nav: 
   - Home: index.md
   - About Me: about.md
+  - Test:
+    - Test1: test/test1.md
+    - Test2: test/test2.md
 
 plugins:
   - search
 
 extra:
   generator: false
+
+extra_css:
+  - assets/stylesheets/extra.css
 
 theme: 
   custom_dir: docs/overrides
@@ -31,13 +37,13 @@ theme:
     code: Oxygen Mono
   palette: 
     - scheme: default
-      primary: black
+ 
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
 
     - scheme: slate
-      primary: black
+    
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
