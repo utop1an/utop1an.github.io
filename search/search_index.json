@@ -1,1 +1,1 @@
-{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[{"location":"","title":"Material for MkDocs","text":"<p>Welcome to Material for MkDocs.</p>"}]}
+{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[{"location":"","title":"My Site","text":"<p>Welcome to my site</p>"},{"location":"about/","title":"About Me","text":"<p>My personal website</p>"}]}

@@ -1,0 +1,29 @@
+.start_btn {
+    width: 160px;
+    background-color: black;
+    padding: 12px 10px;
+    border: none;
+    box-shadow: -2px 2px 4px 3px rgba(0, 0, 0, 0.8);
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: width 0.4s;
+}
+
+.start_btn img {
+    width: 35px;
+    display: none;
+}
+
+.start_btn:hover img{
+    display: block;
+}
+
+.start_btn:hover {
+    width: 175px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
